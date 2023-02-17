@@ -182,6 +182,56 @@ class MessingAround(Scene):
         
         self.wait(1)
 ```
+<br />
+<br />
+
+# Indicate
+
+<br />
+<br />
+
+https://user-images.githubusercontent.com/112841868/219565468-fe6d61c0-bbaa-4e32-9af3-165e3b99b310.mp4
+
+```python
+from manim import *
+
+
+class MessingAround(Scene):
+    def construct(self):
+
+        # Creating Mobjects
+
+        square =Square(
+
+            side_length=1,
+            color=RED,
+            fill_opacity = 0.5
+
+        )
+
+        self.play(
+            FadeIn(square),     
+            run_time = 1.5
+        )
+        self.play(
+            Indicate(               
+                square,
+                scale_factor= 0.5,
+                color = GREEN,                     
+            ),
+            run_time = 1.5
+        )
+        self.play(
+            Indicate(               
+                square,
+                scale_factor= 1.5,
+                color = BLUE,                     
+            ),
+            run_time = 1.5
+        )
+        
+        self.wait(1.5)
+```
 
 
 
