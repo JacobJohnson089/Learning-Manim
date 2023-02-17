@@ -117,3 +117,71 @@ class MessingAround(Scene):
         self.wait(1)
 
 ```
+<br />
+<br />
+
+# Transform
+
+<br />
+<br />
+
+https://user-images.githubusercontent.com/112841868/219561615-6ccee436-ba64-453b-9a48-74139a0636a9.mp4
+
+```python
+
+from manim import *
+
+
+class MessingAround(Scene):
+    def construct(self):
+
+        # Creating Mobjects
+
+        square =Square(
+
+            side_length=1,
+            color=RED,
+            fill_opacity = 0.5
+
+        )
+
+        circle = Circle(
+
+            radius=1,
+            color=GREEN,
+            fill_opacity = 0.5
+
+        )
+
+        triangle = Triangle(
+
+
+            color=BLUE,
+            fill_opacity = 0.5
+
+        )        
+
+    
+        
+
+        # Displaying Mobjects
+
+        self.play(
+
+            Transform(square, circle),
+            run_time = 2.5
+        )
+        self.clear()
+        self.play(
+
+            Transform(circle, triangle),
+            run_time = 2.5
+        )
+
+
+        
+        self.wait(1)
+```
+
+
+
