@@ -1,18 +1,3 @@
-# Summary
-
-### [Circle](https://github.com/JacobJohnson089/Learning-Manim/edit/main/02_Mobjects.md#circle)
-
-### [Square](https://github.com/JacobJohnson089/Learning-Manim/edit/main/02_Mobjects.md#square)
-
-### [Triangle](https://github.com/JacobJohnson089/Learning-Manim/edit/main/02_Mobjects.md#triangle)
-
-### [Regular Polygone](https://github.com/JacobJohnson089/Learning-Manim/edit/main/02_Mobjects.md#regular-polygone)
-
-### [Circle](https://github.com/JacobJohnson089/Learning-Manim/edit/main/02_Mobjects.md#circle)
-
-
-
-
 
 
 <br />
