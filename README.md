@@ -29,4 +29,4 @@ This is by no mean explanative, this is a glorified notepad for myself.
 
 ### 02_Mobject.md : All the shapes you can make and their basic parameters
 
-### 03_Animation.md : How to move stuff around on the screen
+### 03_Positioning.md : How to position Mobjects on the screen
