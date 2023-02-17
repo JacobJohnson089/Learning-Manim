@@ -38,3 +38,65 @@ square = Square(
 
   )
 ```
+<br />
+<br />
+
+# Square
+
+<br />
+<br />
+
+
+https://user-images.githubusercontent.com/112841868/219569766-6fe937f0-4da1-40c3-af56-258243aa45c9.mp4
+
+```python
+
+ triangle = Triangle(
+
+  color = RED,
+  fill_opacity = 0.5
+
+  ).scale(2).rotate(0*DEGREES)
+
+```
+<br />
+<br />
+
+# Dot
+
+<br />
+<br />
+
+
+https://user-images.githubusercontent.com/112841868/219570609-c7b9d9ed-0e96-4243-b79e-a5ea8c77ab22.mp4
+
+```python
+dot = Dot(
+
+  color = RED,
+  fill_opacity= 0.5
+
+  )
+
+
+```
+
+
+
+<br />
+<br />
+
+# Grid ( Number plane )
+
+<br />
+<br />
+
+
+
+https://user-images.githubusercontent.com/112841868/219568931-d5862eab-5681-40ca-89a6-8fdcdea05fd9.mp4
+
+```python
+
+plane = NumberPlane()
+
+```
