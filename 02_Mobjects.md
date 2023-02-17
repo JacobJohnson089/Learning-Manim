@@ -63,7 +63,7 @@ https://user-images.githubusercontent.com/112841868/219569766-6fe937f0-4da1-40c3
 <br />
 <br />
 
-# Regular Polygone
+# Regular Polygon
 
 <br />
 <br />
@@ -76,7 +76,7 @@ https://user-images.githubusercontent.com/112841868/219601840-10eed332-5d51-49af
 
 ```python
 
-Polygone = RegularPolygone(
+Polygone = RegularPolygon(
 
   n = ( number of vertices ),
   color = RED,
