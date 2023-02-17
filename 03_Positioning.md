@@ -252,6 +252,45 @@ class MessingAround(Scene):
             run_time = 6
         )
 ```
+<br />
+<br />
+
+# Rotate 
+
+<br />
+<br />
 
 
 
+https://user-images.githubusercontent.com/112841868/219606984-ab1eccb5-5b78-4040-9545-343d8ce0e196.mp4
+
+```python3
+from manim import *
+
+
+class MessingAround(Scene):
+    def construct(self):
+
+        # Mobject
+        arrow_1 = Arrow(start=DOWN, end=UP, color=WHITE)
+        arrow_2 = Arrow(start=DOWN, end=UP, color=RED)
+        arrow_3 = Arrow(start=DOWN, end=UP, color=BLUE)
+        arrow_4 = Arrow(start=DOWN, end=UP, color=GREEN)
+        arrow_5 = Arrow(start=DOWN, end=UP, color=YELLOW)
+
+        Arrows = VGroup (arrow_1,arrow_2,arrow_3,arrow_4,arrow_5).arrange(RIGHT, buff = 2)
+
+        # Display 
+
+        self.play(
+
+            Rotate(Arrows[0],PI,rate_func = lambda t: t ),
+            Rotate(Arrows[1],PI,rate_func = smooth ),
+            Rotate(Arrows[2],PI,rate_func = lambda t: np.sin(t*PI) ),
+            Rotate(Arrows[3],PI,rate_func = lambda t: t*2),
+            Rotate(Arrows[4],PI,rate_func = lambda t: 1 - abs((1 - 2*t))),
+            run_time = 6
+
+        )
+       
+```
