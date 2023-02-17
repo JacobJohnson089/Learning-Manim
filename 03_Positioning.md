@@ -14,6 +14,9 @@ from manim import *
 class MessingAround(Scene):
     def construct(self):
 
+class MessingAround(Scene):
+    def construct(self):
+
         # Mobject
 
         plane = NumberPlane()
@@ -23,12 +26,8 @@ class MessingAround(Scene):
         point_D = Dot(color = GREEN)
         point_E = Dot(color = YELLOW)        
 
-
-        # Code
-
         Direction = [RIGHT, UP, LEFT, DOWN]
         MyPoints = [point_A, point_B, point_C, point_D, point_E]
-
 
         # Positions 
 
@@ -45,5 +44,4 @@ class MessingAround(Scene):
             run_time = 1
         )               
         self.wait(1)
-
 ```
