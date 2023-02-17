@@ -294,3 +294,33 @@ class MessingAround(Scene):
         )
        
 ```
+
+<br />
+<br />
+
+# Scale
+
+<br />
+<br />
+
+
+https://user-images.githubusercontent.com/112841868/219610824-6cd7d293-7ee1-4627-a5f3-e1e95d89e4e9.mp4
+
+```python
+
+from manim import *
+
+
+class MessingAround(Scene):
+    def construct(self):
+
+        self.play(
+
+             Square(side_length=1, color = RED, fill_opacity = 0.5).animate.scale(3),
+             run_time = 6
+
+
+        )                
+
+```
+
