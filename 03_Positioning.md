@@ -205,8 +205,53 @@ class MessingAround(Scene):
         self.wait(1)
 ```
 
+<br />
+<br />
+
+# Arrange
+
+<br />
+<br />
 
 
+
+https://user-images.githubusercontent.com/112841868/219592989-c4164a4d-682d-4ea9-8c20-439673a6afff.mp4
+
+
+```python
+
+from manim import *
+
+
+class MessingAround(Scene):
+    def construct(self):
+
+        # Mobject
+
+        plane = NumberPlane()
+        point_A = Dot(color = WHITE)
+        point_B = Dot(color = RED)
+        point_C = Dot(color = BLUE)
+        point_D = Dot(color = GREEN)
+        point_E = Dot(color = YELLOW)        
+
+        points = VGroup(point_A, point_B, point_C, point_D, point_E)
+        
+
+        # Positions 
+
+        points.arrange(RIGHT)
+
+
+        # Display
+
+        self.add(plane)
+        self.play(
+
+            Create(points),
+            run_time = 6
+        )
+```
 
 
 
