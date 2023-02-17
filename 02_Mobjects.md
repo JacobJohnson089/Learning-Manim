@@ -41,7 +41,7 @@ square = Square(
 <br />
 <br />
 
-# Square
+# Triangle
 
 <br />
 <br />
@@ -59,6 +59,34 @@ https://user-images.githubusercontent.com/112841868/219569766-6fe937f0-4da1-40c3
   ).scale(2).rotate(0*DEGREES)
 
 ```
+
+<br />
+<br />
+
+# Regular Polygone
+
+<br />
+<br />
+
+
+https://user-images.githubusercontent.com/112841868/219596681-10aa6f5d-3ef5-4585-a992-725da00051f6.mp4
+
+
+
+
+
+```python
+
+Polygone = RegularPolygone(
+
+  n = ( number of vertices ),
+  color = RED,
+  fill_opacity = 0.5
+
+  )
+
+```
+
 <br />
 <br />
 
