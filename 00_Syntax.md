@@ -58,6 +58,69 @@ class name_of_animation(Scene):
 
         )
  ```
+ 
+ <br />
+ <br />
+ 
+ # Exemple
+ 
+ <br />
+ <br />
+ 
+ ```python
+ 
+ class MessingAround(Scene):
+    def construct(self):
+
+        # Creating Mobjects
+
+        axes = Axes(
+
+            x_range=(-3, 3),
+            y_range=(-3, 3),
+            
+            )
+
+        curve = axes.plot(
+
+            lambda x:(x+2)*x*(x-2)/2,
+            color=RED
+            
+            )
+
+        area = axes.get_area(
+            
+            curve, (-2,0) 
+
+            )
+        
+
+        # Displaying Mobjects
+
+        self.play(
+
+            Create(axes),
+            Create(curve),
+            Create(area),
+            run_time = 10     
+            
+            )
+            
+  ```
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+
+https://user-images.githubusercontent.com/112841868/219555110-da452d4b-22fe-45f1-9874-e6d9e13c3d03.mp4
+
+
+ 
+ 
   
   
   
